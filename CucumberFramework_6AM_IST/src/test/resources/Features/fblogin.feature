@@ -1,9 +1,9 @@
 
-@tag
+
 Feature: login to FB
 
 
-  @tag1
+@Search
   Scenario: Login to Facebook Application with invalid Credentials
     Given Open FB URL
     When User enter invalid credentials

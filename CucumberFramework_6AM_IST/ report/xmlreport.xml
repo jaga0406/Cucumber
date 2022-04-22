@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.257">
+    <testcase classname="This is to test whether the login feature for orange HRM" name="This is the positive login scenario with outline for Examples" time="0.05">
+        <system-out>
+            <![CDATA[Given user wants to login in login page.....................................passed
+When the user enters username "Admin" and password "admin123"...............passed
+And pressed the login button................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This is to test whether the login feature for orange HRM" name="This is the positive login scenario with outline for Examples 2" time="0">
+        <system-out>
+            <![CDATA[Given user wants to login in login page.....................................passed
+When the user enters username "Jaga" and password "epovumaemassda"..........passed
+And pressed the login button................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="login feature for orange HRM" name="This is the positive login scenario" time="0.001">
+        <system-out>
+            <![CDATA[Given user want to login in login page......................................passed
+When the user enters valid data.............................................passed
+And presses the login button................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
